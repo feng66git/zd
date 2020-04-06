@@ -27,9 +27,6 @@ $(function(){
 	    }else if(code == ''){
 	        remin('请输入验证码');
 	        return;
-	    }else if(!$('.accept .icon').hasClass('on')){
-	        remin('请同意众贷网服务协议');
-	        return;
 	    }else{
 	    	alert(username+'-'+phNb+'-'+limit+'-'+code);
 	    }

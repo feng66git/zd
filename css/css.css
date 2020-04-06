@@ -83,7 +83,7 @@ input::-moz-focus-inner {
   background-color: #fff;
 }
 header {
-  height: 7.1rem;
+  height: 7.23rem;
   width: 6.5rem;
   background:#4089fc url(../images/bg.png) no-repeat;
   background-size: 100%;
@@ -176,16 +176,17 @@ header {
 .type{
   background-color: #e4e8f0;
   width: 5.8rem;
-  margin:0 auto;
+  margin:0.5rem auto 0;
   position: relative;
   padding-bottom: 0.2rem;
+
 }
 .type .tit{
   background-color: #fcb968;
   font-size: 0.26rem;
   text-align: center;
-  height:0.8rem;
-  line-height:0.5rem;
+  height:1rem;
+  padding-top: 0.2rem;
   color:#fff;
   font-weight: bold;
 }
@@ -241,7 +242,7 @@ header {
   padding-bottom: 0.3rem;
   background-image: linear-gradient(to right top, #e79436, #ffbf70);
   overflow: hidden;
-  top: 4.7rem;
+  top: 5rem;
   left:0.32rem;
 }
 .type .term:after{
@@ -255,10 +256,10 @@ header {
   right: -0.05rem;
 }
 .type .term .tit{
+  height: 0.6rem;
   margin-bottom: 0.1rem;
   background:none;
   color:#fbf4e2;
-  padding-top: 0.2rem;
   font-size: 0.26rem;
 }
 .type .term p{
