@@ -334,3 +334,46 @@ footer p {
   color: #fff;
   text-align: center;
 }
+.success{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.7);
+  display: none;
+  z-index: 10;
+}
+.success .content{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 4.5rem;
+  height: 3rem;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.success .content img{
+  width: 0.64rem;
+  height: 0.64rem;
+}
+.success .content p{
+  font-size: 0.26rem;
+  margin: 0.28rem;
+  font-weight: bold;
+  
+}
+.success .content .close{
+  width: 2.3rem;
+  height: 0.6rem;
+  border-radius: 0.1rem;
+  background-color: #2f88f4;
+  font-size: 0.18rem;
+  color: #fff;
+  font-weight: normal;
+}

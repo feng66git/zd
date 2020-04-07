@@ -28,9 +28,12 @@ $(function(){
 	        remin('请输入验证码');
 	        return;
 	    }else{
-	    	alert(username+'-'+phNb+'-'+limit+'-'+code);
+	    	$('.success').show()
 	    }
-		
+	})
+	$('.success .close').on('click',function(){
+		$('.success').hide();
+		$('input').val('');
 	})
 	var str = 's后重发';
 	var t = 59;
