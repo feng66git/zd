@@ -15,7 +15,7 @@ $(function(){
 		start:function(){
 			setInterval(()=>{
 				this.moving()
-			},70)
+			},50)
 		},
 		init:function(){
 			this.start()
