@@ -116,13 +116,13 @@ $(function(){
 			}
 		})
 		if(limitNum == ''){
-			alert('请选择期望额度');
+			remin('请选择期望额度');
 			return;
 		}else if(dateNum == ''){
-			alert('请选择期望分期数');
+			remin('请选择期望分期数');
 			return;
 		}else if(loan.length == 0) {
-			alert('请选择您的资质');
+			remin('请选择您的资质');
 	        return;
 		}
 		var username = decodeURI(getUrlStr('username='));

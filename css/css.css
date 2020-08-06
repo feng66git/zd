@@ -247,17 +247,18 @@ header img{
 }
 
 
-.icons .ic {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.icons{
+  height: 6rem;
   background: linear-gradient(to right bottom,#6cb0e6,#2ba3d9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.icons .ic .bg {
+.icons .bg {
   width: 6.25rem;
   height: 5rem;
   background: url(../images/ic.png) no-repeat center center;
   background-size: 6.25rem 5.06rem;
-  margin: 0 auto 0;
   border-radius: 0.1rem;
 }
 .newrecord button {
